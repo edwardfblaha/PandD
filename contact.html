@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | PD Truck Rental</title>
+  <meta name="description" content="Contact P&amp;D Truck Rental 24/7. Call 1-844-PDTRUCK or email info@pdtruckrental.com to rent a step van or become an affiliate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sofia+Sans+Extra+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="PD Truck Rental home">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7z"/><circle cx="6" cy="18.5" r="1.5" fill="currentColor"/><circle cx="17" cy="18.5" r="1.5" fill="currentColor"/></svg></span>
+        P&amp;D<b>&nbsp;Truck&nbsp;Rental</b>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="getting-started.html">Getting Started</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="is-active">Contact</a></li>
+          <li><a href="vehicles.html" class="btn btn--dark" style="padding:.5rem 1.1rem;">Available Vehicles</a></li>
+          <li><a href="#" data-open-login>Login / Register</a></li>
+        </ul>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</p>
+      <h1>Contact Us</h1>
+      <p>We&rsquo;re here to help 24/7. Call, email, or send us a message.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div>
+        <span class="eyebrow">Get in Touch</span>
+        <h2>Talk to P&amp;D</h2>
+        <p>Questions about renting a step van, or interested in becoming an affiliate? Reach out any time.</p>
+        <ul class="info-list">
+          <li class="info-item">
+            <span class="info-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2.1z"/></svg></span>
+            <div><h4>Call Us</h4><p><a href="tel:18447387825">1-844-PDTRUCK</a> (1-844-738-7825)</p></div>
+          </li>
+          <li class="info-item">
+            <span class="info-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg></span>
+            <div><h4>Email</h4><p><a href="mailto:info@pdtruckrental.com">info@pdtruckrental.com</a></p></div>
+          </li>
+          <li class="info-item">
+            <span class="info-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+            <div><h4>Hours</h4><p>Available 24/7</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="form" id="contact-form" novalidate>
+        <div class="form__success">Thanks! Your message has been sent&mdash;our team will be in touch shortly.</div>
+        <div class="form__row">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="topic">I&rsquo;m interested in</label>
+          <select id="topic" name="topic">
+            <option>Renting a vehicle</option>
+            <option>Becoming an affiliate</option>
+            <option>Maintenance &amp; support</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <p class="form__note">By submitting you agree to be contacted by P&amp;D Truck Rental about your request.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7z"/><circle cx="6" cy="18.5" r="1.5" fill="currentColor"/><circle cx="17" cy="18.5" r="1.5" fill="currentColor"/></svg></span>
+          P&amp;D Truck Rental
+        </a>
+        <p>P&nbsp;700, P&nbsp;900 and P&nbsp;1000 pickup &amp; delivery trucks ready to rent today. Onsite maintenance, unlimited mileage, automatic renewal.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="vehicles.html">Our Trucks</a></li>
+          <li><a href="getting-started.html">Getting Started</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get Started</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-open-login>Login / Register</a></li>
+          <li><a href="contact.html">Become an Affiliate</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:18447387825">1-844-PDTRUCK</a></li>
+          <li><a href="mailto:info@pdtruckrental.com">info@pdtruckrental.com</a></li>
+          <li>Available 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Copyright &copy; <span id="year">2026</span> P&amp;D Truck Rental. All Rights Reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms &amp; Conditions</a></span>
+    </div>
+  </footer>
+
+  <div class="modal" id="login-modal" role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <div class="modal__inner">
+      <div class="modal__head">
+        <h3 id="login-title">Login</h3>
+        <button class="modal__close" data-close aria-label="Close">&times;</button>
+      </div>
+      <div class="modal__body">
+        <div class="tabs__nav">
+          <button class="tab-btn is-active" data-tab="tab-renter">Renter</button>
+          <button class="tab-btn" data-tab="tab-affiliate">Affiliates</button>
+        </div>
+        <div class="tab-panel is-active" id="tab-renter">
+          <a class="modal-link" href="https://app.pdtruckrental.com" target="_blank" rel="noopener">Login / Register <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="tab-panel" id="tab-affiliate">
+          <div class="loc-columns">
+            <a class="modal-link" href="https://atlanta.pdtruckrental.com" target="_blank" rel="noopener">Atlanta</a>
+            <a class="modal-link" href="https://northatlanta.pdtruckrental.com" target="_blank" rel="noopener">North Atlanta</a>
+            <a class="modal-link" href="https://miamidade.pdtruckrental.com" target="_blank" rel="noopener">Miami Dade</a>
+            <a class="modal-link" href="https://cleveland.pdtruckrental.com" target="_blank" rel="noopener">Cleveland</a>
+            <a class="modal-link" href="https://dmv.pdtruckrental.com" target="_blank" rel="noopener">DMV</a>
+            <a class="modal-link" href="https://raleigh.pdtruckrental.com" target="_blank" rel="noopener">Raleigh</a>
+            <a class="modal-link" href="https://lexington.pdtruckrental.com" target="_blank" rel="noopener">Lexington</a>
+            <a class="modal-link" href="https://charlotte.pdtruckrental.com" target="_blank" rel="noopener">Charlotte</a>
+            <a class="modal-link" href="https://kentucky.pdtruckrental.com" target="_blank" rel="noopener">Kentucky</a>
+            <a class="modal-link" href="https://knoxville.pdtruckrental.com" target="_blank" rel="noopener">Knoxville</a>
+            <a class="modal-link" href="https://hamptonroads.pdtruckrental.com" target="_blank" rel="noopener">Hampton Roads</a>
+            <a class="modal-link" href="https://richmond.pdtruckrental.com" target="_blank" rel="noopener">Richmond</a>
+            <a class="modal-link" href="https://orlando.pdtruckrental.com" target="_blank" rel="noopener">Orlando</a>
+            <a class="modal-link" href="https://centralflorida.pdtruckrental.com" target="_blank" rel="noopener">Central Florida</a>
+            <a class="modal-link" href="https://lonestar.pdtruckrental.com" target="_blank" rel="noopener">Lone Star</a>
+            <a class="modal-link" href="https://newyork.pdtruckrental.com" target="_blank" rel="noopener">New York</a>
+            <a class="modal-link" href="https://utah.pdtruckrental.com" target="_blank" rel="noopener">Utah</a>
+            <a class="modal-link" href="https://florence.pdtruckrental.com" target="_blank" rel="noopener">Florence</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
